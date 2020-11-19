@@ -1,0 +1,31 @@
+.App {
+  background-image: url(https://store-images.s-microsoft.com/image/apps.60166.13510798887304077.23063538-cc5b-48a6-877b-3b83e2722bce.426db1ff-299b-45cd-80f7-54d8188f749e);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  margin-top: none;
+  border: none;
+}
+
+h1 {
+  height: 100px;
+  font-size: 60px;
+}
+.form__input {
+  display: flex;
+  justify-content: center;
+}
+
+.form__inputline {
+  padding: 5px;
+  margin-right: 10px;
+  transition: 200ms color ease-in;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+}
